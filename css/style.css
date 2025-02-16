@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+*{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.noto-sans-kr {
+  font-family: "Noto Sans KR", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.dynapuff-font {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.nanumpen {
+  font-family: "Nanum Pen Script", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mynav{
+  width:15%;
+}
+.mymaincontainer{
+  margin-left:15%;
+}
+
+.maincard{
+  width: 50%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.currentinfo{
+  font-size: 20px;
+}
+p{
+  margin-top: 5px;
+  margin-bottom:5px;
+}
+
+.mymaincontent{
+  margin-bottom:100px;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  text-transform: uppercase;
+}
+
+.textarea_morse{
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  resize: none;
+  text-transform: uppercase;
+}
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>morsecode</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  
+</head>
+
+<body>
+
+  <nav>
+    <div class="w3-sidebar w3-bar-block w3-light-gray mynav">
+      <h3 class="w3-bar-item">Menu</h3>
+      <a href="index.html" class="w3-bar-item w3-button  w3-hover-green">Home</a>
+      <a href="hangul.html" class="w3-bar-item w3-button w3-hover-green w3-green">한글</a>
+      
+      <a href="about.html" class="w3-bar-item w3-button w3-hover-green">About</a>
+    </div>
+  </nav>
+  <div class="mymaincontainer">
+    <header class="w3-container w3-center">
+      <h1 class="nanumpen">모스부호 번역기</h1>
+      <h3 class="nanumpen">한글과 모스부호 간 변환</h3>
+    </header>
+    <div>
+      <div class="w3-center w3-display-container mymaincontent noto-sans-kr">
+        <div class="w3-container">
+          <label class="w3-text-teal"><b>입력</b></label>
+          <textarea id="inputarea"placeholder="텍스트(예: 안녕)나 모스부호(-.- . ..-.  ..-. ... -.-)를 입력하세요" class="w3-light-grey"></textarea>
+          <i style="font-size: 20px;" class="fa-solid fa-arrow-down-long"></i><br/>
+          <label class="w3-text-teal"><b>결과</b></label>
+          <textarea id="resultarea" placeholder="결과는 여기에 표시됩니다." class="w3-light-grey"></textarea>
+        
+          <button class="w3-btn w3-blue-grey" id="translateBtn">번역</button>
+          <button class="w3-btn w3-blue-grey" id="copyBtn" data-clipboard-action="copy" data-clipboard-target="#resultarea">복사</button>
+        </div>
+        
+        
+      </div>
+    </div>
+
+
+    
+    <footer>
+      <div class="w3-container w3-bottom w3-teal " >
+        <i class="fa-brands fa-github"></i> <a href="https://github.com/minchoCoin" target="_blank">github</a> <i
+          class="fa fa-user"></i> <a href="https://minchocoin.github.io" target="_blank">blog</a> <i
+          class="fa fa-envelope"></i> <a href="mailto:taehun5508@gmail.com">contact</a> <i
+          class="fa-regular fa-address-card"></i><a href="https://minchocoin.github.io/resume"
+          target="_blank">resume</a>
+        
+      </div>
+    </footer>
+  </div>
+</body>
+<!--
+https://www.npmjs.com/package/hangul-js
+https://github.com/e-/Hangul.js/
+-->
+<script src="https://unpkg.com/hangul-js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
+<script src="./js/app_hangul.js"></script>
+
+</html>
